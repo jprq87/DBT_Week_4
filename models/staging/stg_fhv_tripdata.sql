@@ -6,7 +6,7 @@ renamed as (
     select
         -- identifiers
         cast(dispatching_base_num as string) as dispatching_base_number,
-        cast(affiliated_base_number as string) as affiliated_base_number
+        cast(affiliated_base_number as string) as affiliated_base_number,
         cast(pulocationid as integer) as  pickup_location_id,
         cast(dolocationid as integer) as dropoff_location_id,
 
